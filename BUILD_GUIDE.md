@@ -1,8 +1,8 @@
-# Zenitsu Extension - Build & Publishing Guide
+# MindGuard Extension - Build & Publishing Guide
 
 ## Overview
 
-This guide explains how to build and publish the Zenitsu Chrome Extension to the Chrome Web Store.
+This guide explains how to build and publish the MindGuard Chrome Extension to the Chrome Web Store.
 
 ## Quick Start
 
@@ -10,7 +10,7 @@ This guide explains how to build and publish the Zenitsu Chrome Extension to the
 # Build the extension
 ./build.sh
 
-# Output: build/ folder and zenitsu-v1.0.0.zip
+# Output: build/ folder and mindguard-v1.0.0.zip
 ```
 
 ## Build System
@@ -30,7 +30,7 @@ This guide explains how to build and publish the Zenitsu Chrome Extension to the
 
 3. **Build Output**
    - `build/` - Clean directory with production files
-   - `zenitsu-v{version}.zip` - Ready for upload
+   - `mindguard-v{version}.zip` - Ready for upload
 
 ## Publishing Workflow
 
@@ -115,7 +115,7 @@ When you want to release a new version:
    - Go to Developer Dashboard
    - Click on your extension
    - Click "Upload new package"
-   - Upload new `zenitsu-v{version}.zip`
+   - Upload new `mindguard-v{version}.zip`
    - Describe changes in "What's new"
    - Submit for review
 
@@ -159,13 +159,13 @@ These development files are NOT included in the build:
 You MUST host the privacy policy on a public URL. Options:
 
 1. **GitHub Pages** (Free)
-   - Create repo: `zenitsu-extension`
+   - Create repo: `mindguard-extension` or use your main repo
    - Enable GitHub Pages
    - Add `PRIVACY_POLICY.md` to docs folder
-   - URL: `https://yourusername.github.io/zenitsu-extension/PRIVACY_POLICY.html`
+   - URL: `https://yourusername.github.io/mindguard/PRIVACY_POLICY.html`
 
 2. **Your Website**
-   - Host on your domain: `https://yoursite.com/zenitsu/privacy`
+   - Host on your domain: `https://yoursite.com/mindguard/privacy`
 
 3. **Google Sites** (Free)
    - Create simple site with privacy policy
@@ -197,8 +197,8 @@ Create 3-5 screenshots showing:
 
 ### Title
 Keep it simple and searchable:
-- "Zenitsu - Focus Blocker"
-- "Zenitsu Website Blocker"
+- "MindGuard - Focus Blocker"
+- "MindGuard Website Blocker"
 
 ### Short Description (132 chars)
 From STORE_DESCRIPTION.md - emphasize key benefit
@@ -244,7 +244,7 @@ Use the full content from STORE_DESCRIPTION.md:
 ## Support Email
 
 Add a support email for users:
-1. Create dedicated email: `zenitsu-support@yourdomain.com`
+1. Create dedicated email: `mindguard-support@yourdomain.com`
 2. Add to store listing
 3. Monitor for user feedback
 4. Respond within 24-48 hours
