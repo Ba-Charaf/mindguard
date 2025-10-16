@@ -1,0 +1,1 @@
+Read the instructions from the build guide and build a new version of the extension. Make sure everything is included and ready for publishing to chromve extension store.

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+}
+
+.content {
+  background: white;
+  border-radius: 16px;
+  padding: 60px 40px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+  animation: pulse 2s ease-in-out infinite;
+  color: #f59e0b;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.domain {
+  font-size: 20px;
+  color: #d97706;
+  font-weight: 600;
+  margin-bottom: 40px;
+  word-break: break-all;
+}
+
+.info-box {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-size: 16px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.actions {
+  margin-bottom: 30px;
+}
+
+.btn-restart {
+  width: 100%;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+  color: #1f2937;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+}
+
+.btn-restart:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.5);
+}
+
+.btn-restart:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn-restart:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.restart-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.restart-info.error {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.restart-info.success {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.motivation {
+  padding-top: 30px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.motivation p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.motivation .small {
+  font-size: 14px;
+  color: #888;
+}
+
+
