@@ -65,6 +65,12 @@ function createSiteCard(site) {
     timeClass = 'warning';
   }
   
+  // Disable delete button if all restarts have been consumed
+  const deleteDisabled = restartsRemaining === 0;
+  const deleteTitle = deleteDisabled 
+    ? 'Cannot delete - all restarts consumed' 
+    : 'Delete site';
+  
   return `
     <div class="${cardClass}">
       <div class="site-header">
@@ -73,7 +79,12 @@ function createSiteCard(site) {
           ${site.path ? `<div class="site-path"><i class="bi bi-folder"></i> ${escapeHtml(site.path)}</div>` : ''}
         </div>
         ${statusBadge}
-        <button class="delete-btn" data-site-id="${site.id}" title="Delete site"><i class="bi bi-trash"></i></button>
+        <button class="delete-btn ${deleteDisabled ? 'disabled' : ''}" 
+                data-site-id="${site.id}" 
+                title="${deleteTitle}" 
+                ${deleteDisabled ? 'disabled' : ''}>
+          <i class="bi bi-trash"></i>
+        </button>
       </div>
       <div class="site-stats">
         <div class="stat">
@@ -146,6 +157,16 @@ function setupFormHandler() {
 
 // Delete a site
 async function deleteSite(siteId) {
+  // Check if the site has restarts remaining
+  const site = await StorageHelper.getSiteById(siteId);
+  if (!site) return;
+  
+  const restartsRemaining = 3 - site.restartsUsed;
+  if (restartsRemaining === 0) {
+    alert('Cannot delete this site. All restarts have been consumed. The site will reset at midnight.');
+    return;
+  }
+  
   if (confirm('Are you sure you want to delete this site?')) {
     await StorageHelper.deleteSite(siteId);
     await loadSites();

@@ -171,6 +171,19 @@ small {
   background: #fee;
 }
 
+.delete-btn.disabled,
+.delete-btn:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.delete-btn.disabled:hover,
+.delete-btn:disabled:hover {
+  color: #ccc;
+  background: none;
+}
+
 .site-stats {
   display: flex;
   gap: 15px;
