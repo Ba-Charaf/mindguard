@@ -1,11 +1,11 @@
 # Chrome Web Store Listing
 
 ## Short Description (132 characters max)
-Block distracting websites with smart timers. Get 3 daily restarts. Stay focused and achieve your goals. 🛡️
+Protecting your attention - Block distracting websites with smart timers. Stay focused and achieve your goals. 🛡️
 
 ## Detailed Description
 
-**Stay focused and reclaim your time with MindGuard - Focus Blocker!** 🛡️
+**Protecting your attention - Stay focused and reclaim your time with MindGuard!** 🛡️
 
 Struggling with distractions? MindGuard helps you take control by blocking time-wasting websites with smart, configurable timers. Unlike other blockers, MindGuard gives you flexibility with daily restarts while keeping you accountable to your goals.
 
@@ -70,7 +70,7 @@ Unlike blockers that are too strict or too lenient:
 - **Not Too Lenient:** Restart limit keeps you accountable
 - **Just Right:** Active timers are fair but effective
 
-Guard your mind, protect your productivity, achieve your goals! 🛡️
+Protecting your attention in a world of distractions - achieve your goals! 🛡️
 
 ### 📱 Requirements
 

@@ -1,5 +1,7 @@
 # 🛡️ MindGuard - Focus Blocker
 
+**Protecting your attention**
+
 A Chrome extension to help you stay focused by blocking distracting websites with configurable timeouts and limited daily restarts.
 
 ## Features
