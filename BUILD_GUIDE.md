@@ -69,7 +69,7 @@ This guide explains how to build and publish the MindGuard Chrome Extension to t
 
 5. **Upload Extension**
    - In Developer Dashboard, click "New Item"
-   - Upload `zenitsu-v1.0.0.zip`
+   - Upload `mindguard-v1.0.0.zip`
    - Fill in store listing details
    - Add screenshots
    - Enter privacy policy URL
