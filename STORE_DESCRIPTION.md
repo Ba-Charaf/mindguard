@@ -1,13 +1,13 @@
 # Chrome Web Store Listing
 
 ## Short Description (132 characters max)
-Block distracting websites with smart timers. Get 3 daily restarts. Stay focused and achieve your goals. ⚡
+Block distracting websites with smart timers. Get 3 daily restarts. Stay focused and achieve your goals. 🛡️
 
 ## Detailed Description
 
-**Stay focused and reclaim your time with Zenitsu - Focus Blocker!** ⚡
+**Stay focused and reclaim your time with MindGuard - Focus Blocker!** 🛡️
 
-Struggling with distractions? Zenitsu helps you take control by blocking time-wasting websites with smart, configurable timers. Unlike other blockers, Zenitsu gives you flexibility with daily restarts while keeping you accountable to your goals.
+Struggling with distractions? MindGuard helps you take control by blocking time-wasting websites with smart, configurable timers. Unlike other blockers, MindGuard gives you flexibility with daily restarts while keeping you accountable to your goals.
 
 ### ✨ Key Features
 
@@ -63,14 +63,14 @@ Struggling with distractions? Zenitsu helps you take control by blocking time-wa
 - Anyone building better digital habits
 - People who need flexible blocking (not rigid)
 
-### 🎯 Why Zenitsu?
+### 🎯 Why MindGuard?
 
 Unlike blockers that are too strict or too lenient:
 - **Not Too Strict:** 3 daily restarts give you flexibility
 - **Not Too Lenient:** Restart limit keeps you accountable
 - **Just Right:** Active timers are fair but effective
 
-Named after the Thunder Breathing technique - channel your inner focus! ⚡
+Guard your mind, protect your productivity, achieve your goals! 🛡️
 
 ### 📱 Requirements
 
@@ -94,7 +94,7 @@ All permissions are used solely for core functionality. See our Privacy Policy f
 
 ---
 
-**Download Zenitsu today and take the first step toward better focus!** ⚡💪
+**Download MindGuard today and take the first step toward better focus!** 🛡️💪
 
 *"Your future self will thank you for the focus you build today."*
 

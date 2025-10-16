@@ -13,7 +13,7 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}╔════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}║   Zenitsu Extension Build Script      ║${NC}"
+echo -e "${BLUE}║   MindGuard Extension Build Script    ║${NC}"
 echo -e "${BLUE}╔════════════════════════════════════════╗${NC}"
 echo ""
 
@@ -62,7 +62,7 @@ cp PRIVACY_POLICY.md build/
 cp STORE_DESCRIPTION.md build/
 
 # Create a clean zip file for Chrome Web Store
-ZIP_NAME="zenitsu-v${VERSION}.zip"
+ZIP_NAME="mindguard-v${VERSION}.zip"
 echo -e "${BLUE}📦 Creating zip file: ${ZIP_NAME}...${NC}"
 cd build
 zip -r "../${ZIP_NAME}" . -x "*.DS_Store" ".*" > /dev/null 2>&1

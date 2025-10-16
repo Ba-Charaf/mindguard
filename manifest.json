@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Zenitsu - Focus Blocker",
+  "name": "MindGuard - Focus Blocker",
   "version": "1.0.0",
   "description": "Block distracting websites with configurable timeouts and limited daily restarts",
   "permissions": ["storage", "tabs", "alarms"],

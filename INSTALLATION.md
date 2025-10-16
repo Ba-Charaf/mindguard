@@ -16,12 +16,12 @@
 
 4. **Pin the Extension (Optional)**
    - Click the puzzle piece icon in Chrome's toolbar
-   - Find "Zenitsu - Focus Blocker"
+   - Find "MindGuard - Focus Blocker"
    - Click the pin icon to keep it visible
 
 ## First Use
 
-1. Click the Zenitsu extension icon in your toolbar
+1. Click the MindGuard extension icon in your toolbar
 2. Add your first distracting website:
    - **Domain**: Enter without `http://` or `www.` (e.g., `reddit.com`)
    - **Path** (optional): Specify a path if you want to block only part of the site (e.g., `/r/all`)
@@ -56,7 +56,7 @@
 ## Uninstalling
 
 1. Go to `chrome://extensions/`
-2. Find "Zenitsu - Focus Blocker"
+2. Find "MindGuard - Focus Blocker"
 3. Click "Remove"
 4. Confirm the removal
 

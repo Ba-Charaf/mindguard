@@ -1,4 +1,4 @@
-# ⚡ Zenitsu - Focus Blocker
+# 🛡️ MindGuard - Focus Blocker
 
 A Chrome extension to help you stay focused by blocking distracting websites with configurable timeouts and limited daily restarts.
 
@@ -23,7 +23,7 @@ A Chrome extension to help you stay focused by blocking distracting websites wit
 
 ### Adding a Site
 
-1. Click the Zenitsu extension icon in your toolbar
+1. Click the MindGuard extension icon in your toolbar
 2. Fill in the form:
    - **Domain**: Enter the domain without `http://` or `www.` (e.g., `reddit.com`)
    - **Path** (optional): Enter a specific path to block (e.g., `/r/all`)

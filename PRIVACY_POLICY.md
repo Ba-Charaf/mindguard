@@ -1,10 +1,10 @@
-# Privacy Policy for Zenitsu - Focus Blocker
+# Privacy Policy for MindGuard - Focus Blocker
 
 **Last Updated:** October 16, 2025
 
 ## Overview
 
-Zenitsu - Focus Blocker is a Chrome extension designed to help you stay focused by blocking distracting websites. We are committed to protecting your privacy and being transparent about how the extension works.
+MindGuard - Focus Blocker is a Chrome extension designed to help you stay focused by blocking distracting websites. We are committed to protecting your privacy and being transparent about how the extension works.
 
 ## Data Collection
 
@@ -110,5 +110,5 @@ The source code is available for review at [repository URL], allowing full trans
 
 ---
 
-**Summary:** Zenitsu - Focus Blocker respects your privacy. All data stays on your device. No tracking, no servers, no data collection.
+**Summary:** MindGuard - Focus Blocker respects your privacy. All data stays on your device. No tracking, no servers, no data collection.
 

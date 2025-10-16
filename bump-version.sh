@@ -47,7 +47,7 @@ esac
 NEW_VERSION="${MAJOR}.${MINOR}.${PATCH}"
 
 echo -e "${BLUE}╔════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}║     Zenitsu Version Bump Script       ║${NC}"
+echo -e "${BLUE}║    MindGuard Version Bump Script      ║${NC}"
 echo -e "${BLUE}╔════════════════════════════════════════╗${NC}"
 echo ""
 echo -e "${YELLOW}Current version:${NC} ${CURRENT_VERSION}"
@@ -77,6 +77,6 @@ echo "   3. Test the build"
 echo "   4. Commit: git add manifest.json && git commit -m 'Bump version to ${NEW_VERSION}'"
 echo "   5. Tag: git tag v${NEW_VERSION}"
 echo "   6. Push: git push && git push --tags"
-echo "   7. Upload zenitsu-v${NEW_VERSION}.zip to Chrome Web Store"
+echo "   7. Upload mindguard-v${NEW_VERSION}.zip to Chrome Web Store"
 echo ""
 
